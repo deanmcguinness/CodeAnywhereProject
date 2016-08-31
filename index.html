@@ -1,31 +1,72 @@
 <!DOCTYPE html>
-<html>
-<title>Web Page Design</title>
+<html lang="en">
+
 <head>
-<style type="text/css">
-div
-{
-   width:100px;
-   height:75px;
-   background-color:red;
-   border:1px solid black;
-}
-#div2
-{
-   transform:rotate(30deg);
-   -ms-transform:rotate(30deg); /* IE 9 */
-   -moz-transform:rotate(30deg); /* Firefox */
-   -webkit-transform:rotate(30deg); /* Safari and Chrome */
-   -o-transform:rotate(30deg); /* Opera */
-   background-color:yellow;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above line tells IE to use the latest rendering engine -->
+  <meta name="viewport" content="width = device-width, initial-scale = 1">
+  <!-- set the page width to the size of the device and set the zoom level to one -->
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Bootstrap is now installed --> 
+  <!-- Using a CDN because it firstly makes it easier to get bootstrap and secondly it will save a lot of time if someone has gone to another website to use boostrap they will have it already available on their system -->
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Above is a link to JQuery from a CDN. This is retrieved from http://www.w3schools.com/jquery/jquery_get_started.asp -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Above is a link to JavaScript -->
+  
+  <title>Code Anywhere Project</title>
+  
+  <!-- The below testing stylesheet can now be deleted now that we have installed Bootstrap. -->
+ <!--
+  <style type="text/css">
+    div {
+      width: 100px;
+      height: 75px;
+      background-color: red;
+      border: 1px solid black;
+    }
+    
+    #div2 {
+      transform: rotate(30deg);
+      -ms-transform: rotate(30deg);
+      /* IE 9 */
+      -moz-transform: rotate(30deg);
+      /* Firefox */
+      -webkit-transform: rotate(30deg);
+      /* Safari and Chrome */
+      -o-transform: rotate(30deg);
+      /* Opera */
+      background-color: yellow;
+    }
+  </style>
+  -->
 </head>
+
 <body>
-<img src="logo.png" />
- <div>Hello, World!</div>
+  
+  <!-- Constainers put padding around everything that it contains. Grids require a container inside of them. -->
+  <div class="container">
+    
+  </div>
+  
+  <!-- Page-header adds space around the test and enlarges text inside of it, and adds an underline after the text is displayed. -->
+  <div class="page-header">
+    <h1>
+      Testing Boostrap.
+    </h1>
+  </div>
+  
+  <!--
+  <div>Hello, World!</div>
   <div id="div2">Hello, CSS3!
     <button type="button" class="btn btn-success">Success</button>
   </div>
+  -->
+
+  
 </body>
+
 </html>
