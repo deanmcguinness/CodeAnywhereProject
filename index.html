@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Bootstrap is now installed --> 
-  <!-- Using a CDN because it firstly makes it easier to get bootstrap and secondly it will save a lot of time if someone has gone to another website to use boostrap they will have it already available on their system -->
+  <!-- Using a CDN because it firstly makes it +easier to get bootstrap and secondly it will save a lot of time if someone has gone to another website to use boostrap they will have it already available on their system -->
  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Above is a link to JQuery from a CDN. This is retrieved from http://www.w3schools.com/jquery/jquery_get_started.asp -->
@@ -19,30 +19,15 @@
   
   <title>Code Anywhere Project</title>
   
-  <!-- The below testing stylesheet can now be deleted now that we have installed Bootstrap. -->
- <!--
-  <style type="text/css">
-    div {
-      width: 100px;
-      height: 75px;
-      background-color: red;
-      border: 1px solid black;
-    }
-    
-    #div2 {
-      transform: rotate(30deg);
-      -ms-transform: rotate(30deg);
-      /* IE 9 */
-      -moz-transform: rotate(30deg);
-      /* Firefox */
-      -webkit-transform: rotate(30deg);
-      /* Safari and Chrome */
-      -o-transform: rotate(30deg);
-      /* Opera */
-      background-color: yellow;
-    }
+  <!-- Below we can override the pre-defined class Jumbotron 
+  <style> 
+    .jumbotron{
+      background-color: #3c4c00
+      color:white
+    }    
   </style>
   -->
+  
 </head>
 
 <body>
@@ -55,17 +40,20 @@
   <!-- Page-header adds space around the test and enlarges text inside of it, and adds an underline after the text is displayed. -->
   <div class="page-header">
     <h1>
-      Testing Boostrap.
+      Testing.
     </h1>
   </div>
   
-  <!--
-  <div>Hello, World!</div>
-  <div id="div2">Hello, CSS3!
-    <button type="button" class="btn btn-success">Success</button>
+  <div class="jumbotron"> <!-- class that puts grey box around text etc --> 
+    <p>
+      Paragraph content.
+    </p>
+    
+    <p>
+      <a href="#" class="btn btn-default btn-lg" role="button">Submit</a>
+    </p>
+    
   </div>
-  -->
-
   
 </body>
 
